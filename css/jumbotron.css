@@ -1,0 +1,121 @@
+/********* General Styling ***********/
+a:hover{
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+.main-content{
+  background-color: #f4f3f2;
+}
+/********* Main jumbotron image ***********/
+.jumbotron  {
+  background-image: url("../img/chalkboard.jpg");
+  background-size: 100% 100%;
+  text-align: left;
+  color: #fff;
+  height: 30em;
+}
+/********* Featured Courses Image ***********/
+#big-course {
+  color: #fff;
+  height: 24em;
+  opacity: 0.8;
+    background-image: linear-gradient(#173e43,transparent 63%),
+                    linear-gradient(90deg,#ccc,transparent),
+                    url("../img/yapayzeka.jpg");
+}
+#big-course1 {
+  background-image: linear-gradient(#3fb0ac,transparent 63%),
+                    linear-gradient(90deg,#999,transparent),
+                    url("../img/tablet.jpg");
+  color: #fff;
+  max-height: 10.9em;
+  opacity: 0.8;
+
+
+}
+#big-course2 {
+  background-image: linear-gradient(#9068be,transparent 63%),
+                    linear-gradient(90deg,#aaa,transparent),
+                    url("../img/macbook.jpg");
+  color: #fff;
+  max-height: 10.9em;
+  opacity: 0.8;
+
+}
+.big-course-text {
+  text-align: right;
+  font-weight: bold;
+  margin: auto;
+  line-height: 0.6;
+  padding-left: 0px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#big-course:hover {
+    height: 24em;
+    background: #173e43;
+}
+#big-course1:hover {
+    height: 100%;
+    background: #3fb0ac;
+}
+
+#big-course2:hover {
+    height: 100%;
+    background: #9068be;
+}
+
+footer{
+  clear: both;
+  background: #173e43;
+  position: absolute;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+footer p,a{
+  color: #feffff;
+}
+footer h4 {
+  color:#e05038
+}
+
+.section-heading {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.kurs-gozat {
+  margin: 1em auto 2.5em;
+  text-align: center;
+}
+
+.btn-incele {
+  font-size: 2em;
+  font-weight: 700;
+  height: 3em;
+  padding-top: 0.7em;
+}
+
+/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
